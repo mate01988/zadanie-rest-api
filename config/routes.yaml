@@ -1,0 +1,8 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+auth_login:
+  path:      /api/register
+  controller: App\Controller\Api\UserController::register
+  ##methods: 'POST'
